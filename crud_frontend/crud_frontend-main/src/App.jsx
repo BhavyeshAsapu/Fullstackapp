@@ -16,7 +16,7 @@ function App() {
   const handleChange = (e) => {
     setProduct({ ...product, [e.target.name]: e.target.value });
   };
-const BASE_URL = 'http://3.82.247.137:9090/springapp1'; 
+const BASE_URL = 'http://51.21.218.138:9090/springapp'; 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
